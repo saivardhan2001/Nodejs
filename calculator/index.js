@@ -7,3 +7,4 @@ event.get("/calculator",(req,res)=>{
     res.sendFile(__dirname+"/index.html")
 });
 event.listen(2222,()=>{console.log("hello iam listening")})
+//hello this is just a test
